@@ -1,28 +1,27 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import {connect} from 'react-redux'
-
+import Title from "./Title";
+import Projects from "./Projects";
+import Stack from "./Stack";
+import About from "./About";
 /**
  * COMPONENT
  */
-export const UserHome = props => {
-  return (
+export const UserHome = props =>  (
     <div>
-      <div>
-        <h3 style={{color: 'white'}}>Welcome to Brendan Meyer Codes</h3>
-      </div>
-      <div>
-        <svg>
-          <ellipse cx="100" cy="80" rx="60" ry="80" fill="red" />
-          <ellipse cx="110" cy="105" rx="65" ry="57" fill="" />
-        </svg>
-      </div>
+      <Title />
+      <hr className="divider" />
+      <Projects />
+      <hr className="divider" />
+      <Stack />
+      <hr className="divider" />
+      <About />
     </div>
-  )
-}
+  );
+
+
 
 /**
  * CONTAINER
  */
 
-export default connect(null)(UserHome)
+export default UserHome
