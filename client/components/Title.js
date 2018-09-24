@@ -21,7 +21,7 @@ const Title = () => (
         </span>
       </div>
     </div>
-    <div style={{width: "25%", border: '3em solid #4286f4', boxShadow: "0.1em 0.2em 0.5em 0.04em"}}>
+    <div className="hero_frame">
       <img
         className="hero_image"
         src="./headshots/headshot.jpg"

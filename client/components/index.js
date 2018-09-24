@@ -5,9 +5,6 @@
  */
 export {default as UserHome} from './user-home'
 export {default as About} from './About'
-export {default as Projects} from './Projects'
-export {default as Stack} from './Stack'
-export {default as Title} from './Title'
-
-
-
+export {default as Projects} from './Projects';
+export {default as Stack} from './Stack';
+export {default as Title} from './Title';

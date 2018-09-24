@@ -1,10 +1,10 @@
 import React from "react";
 
 const aboutStory = [
-  "It must have been compulsive because before I could recognize the response, I'd explained in detail the scene transition in D2: The mighty ducks between the crowd chanting 'We will Quack you' to Queen's recording of 'We Will Rock' you at the 3rd act puck drop.",
-  "These obscure compositions have always stayed with me, made me pick up the mental magnifying glass. I'd rewind them in my head and examine the relationship of part to part and what made a moment breath.",
-  "For a while, I thought that my fascination was limited to only art, to compositions of language, color or sound. But a friend suggested code, I realized what I'd been missing.",
-  "There's nothing like opening up a new code base and discovering where all the dots align, where the programmer has fused together pieces with logic or otherise"
+  "It must have been compulsive. Before I could recognize the stunned responses of my coworkers, I'd explained in detail the scene transition in D2: The Mighty Ducks between the crowd chanting 'We will Quack you' to Queen's recording of 'We Will Rock' you at the 3rd act puck drop.",
+  "I don't remember what caused the War of 1812, but these obscure compositions have always stayed with me, made me curious. I'd examine them and study their anatomy, what made them breath.",
+  "For a while, I thought that my fascination was limited to only art, to compositions of language, color or sound. So I became an artist and an actor. But after a friend suggested code, I quickly realized what I'd been missing.",
+  "I love clean and direct code. I love code composed of the wit, science and passion of collaborators to create truly unique solutions"
 ];
 
 const About = () => (

@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom';
 const myProjects = [{id: 1, name: "NiceBreakers", img: "./projects/niceBreakers.png"}, {id: 1, name: "The QuarterMaster", img: "./projects/The_quartermaster.png"}]
 
 const Projects = () => (
@@ -8,16 +8,18 @@ const Projects = () => (
     <div className="boxContainer">
     <div className="projectBox">
       <div className="projectSelect">
-      {myProjects[0].name}
-      <p>IceBreaker Facilitator</p>
+      <Link to="/project/1">  {myProjects[0].name} </Link>
+      <Link to="/project/1"> IceBreaker Facilitator </Link>
       </div>
       <img className="projectImg" src={myProjects[0].img}/>
       </div>
 
       <div className="projectBox">
       <div className="projectSelect">
+      <Link to="/project/1">
       {myProjects[1].name}
-      <p>eCommerce Site</p>
+      </Link>
+      <Link to="/project/1"> Commerce Site </Link>
       </div>
       <img className="projectImg" src={myProjects[1].img}/>
       </div>
