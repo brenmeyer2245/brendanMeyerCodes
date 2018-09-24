@@ -16,10 +16,10 @@ const Projects = () => (
 
       <div className="projectBox">
       <div className="projectSelect">
-      <Link to="/project/1">
+      <Link to="/project/2">
       {myProjects[1].name}
       </Link>
-      <Link to="/project/1"> Commerce Site </Link>
+      <Link to="/project/2"> Commerce Site </Link>
       </div>
       <img className="projectImg" src={myProjects[1].img}/>
       </div>

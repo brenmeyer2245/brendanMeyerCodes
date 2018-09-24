@@ -24,6 +24,7 @@ const SingleProject = (props) => {
        <p> Description: {projects[projectNumber].description}</p>
        <div style={{textDecoration:"none", backgroundColor:"#4286f4", borderRadius:"1em 1em", padding: "1em", width: "7em", boxShadow: ".1em .1em .3em .1em"}}>
        <a style={{color:"white"}}href={projects[projectNumber].github}> Find on Github </a>
+       <a style={{color:"white"}}href={projects[projectNumber].url}> Visit App </a>
        </div>
      </div>
     </div>
