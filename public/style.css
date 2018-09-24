@@ -1,11 +1,11 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(12, 17, 25);
 }
 
 a {
   text-decoration: none;
 }
+
 
 label {
   display: block;
@@ -19,4 +19,192 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+#title {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.textBlock_columns {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero_image {
+  height: 130%;
+  width: 140%;
+  position: relative;
+  top: -1em;
+  left: -1em;
+}
+
+.hero_frame{
+  width: 25%;
+  border: 3em solid rgb(66, 134, 244);
+  height: 25%;
+  box-shadow: 0.1em 0.2em 0.5em 0.04em;
+  position: relative;
+  top: 25%;
+}
+
+
+.name {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.centerFlex{
+  display: flex;
+  justify-content: center;
+}
+
+.centerFlex img{
+  height: 31vh;
+  width: 100%;
+  margin: 1em;
+}
+
+
+.divider {
+  background-color: #4286f4;
+  height: 2em;
+  box-shadow: 0.1em 0.2em 0.5em 0.04em;
+}
+.projectBox {
+  margin: 0.3em;
+  height: 38vh;
+  width: 100%;
+}
+
+
+
+.projectImg{
+  height:100%;
+  width: 100%;
+}
+
+.stackBox{
+  margin: 0.3em;
+  height: 11rem;
+  border: 1px solid;
+  padding: 0.3em;
+  width: 60%;
+  border-radius: .3em .3em;
+  box-shadow: 0.2em 0.2em 0.6em 0em black;
+}
+
+
+.devicon-style {
+  height: 80%;
+  padding: .5em;
+  background-color: white;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.devicon-js-plain {
+  height: 100%;
+}
+
+#about {
+  display: flex;
+  width: 100vw;
+}
+
+.aboutColumn {
+  height: 20em;
+  width: 50vw;
+}
+
+.aboutColumn p {
+  padding: .5em;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.textBlock-hero{
+  float: right;
+  margin: 1em;
+}
+
+.projectSelect{
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  z-index: 3;
+  height: 38vh;
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  background-color: rgba(128,10,10,.57);
+  justify-content: center;
+  align-items: center;
+}
+
+
+.projectSelect:hover{
+  opacity: 1;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  z-index: 3;
+  height: 38vh;
+  width: 100%;
+  font-size: 2em;
+
+  background-color: rgba(128,10,10,.57);
+  justify-content: center;
+  align-items: center;
+}
+
+.projectSelect a {
+  text-align: center;
+  color: white;
+}
+
+@media(min-width: 565px) {
+  .name {
+    font-size: 70px;
+  }
+  .stackBox{
+    width: 30%;
+  }
+  .projectBox{
+    width: 45%
+  }
+  .projectSelect{
+    width: 45%;
+  }
+  .projectSelect:hover{
+    width: 45%;
+  }
+
+  .hero_frame{
+    width: 25%;
+    height: 75%;
+    border: '3em solid #4286f4';
+    position: inherit;
+  }
+  .hero_image{
+  position: inherit;
+  height: 100%;
+  width: 100%;
+  }
+
+  .centerFlex img{
+    height: 65vh;
+  }
 }
