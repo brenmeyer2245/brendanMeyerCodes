@@ -214,3 +214,48 @@ form div {
     width: 50vw;
   }
 }
+
+@media(min-width: 500px){
+  .hero_frame{
+    width: 20%;
+    height: 75%;
+    border: '3em solid #4286f4';
+    position: inherit;
+  }
+}
+
+@media(min-width: 565px){
+  .hero_frame{
+    width: 40%;
+    height: 75%;
+    border: '3em solid #4286f4';
+    position: inherit;
+  }
+}
+
+@media(min-width: 650px){
+  .hero_frame{
+    width: 38%;
+    height: 75%;
+    border: '3em solid #4286f4';
+    position: inherit;
+  }
+}
+
+
+@media(min-width: 790px){
+  .hero_frame{
+    width: 30%;
+    height: 75%;
+    border: '3em solid #4286f4';
+    position: inherit;
+  }
+}
+@media(min-width: 900px){
+  .hero_frame{
+    width: 25%;
+    height: 75%;
+    border: '3em solid #4286f4';
+    position: inherit;
+  }
+}
