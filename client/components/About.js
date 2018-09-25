@@ -10,16 +10,17 @@ const aboutStory = [
 const About = () => (
   <div id="about">
     <div className="aboutColumn">
-      <div className="textBlock-hero">
-      <img  src="http://www.jbmeyer.org/wp-content/uploads/2016/09/Headphones-e1480976520308.jpg" />
-      </div>
       <div className="columnText" />
       <p> {aboutStory[0]}</p>
       <p> {aboutStory[1]}</p>
-    </div>
-    <div className="aboutColumn">
       <p> {aboutStory[2]}</p>
       <p> {aboutStory[3]}</p>
+    </div>
+    <div className="aboutColumn">
+
+    <div className="textBlock-hero">
+      <img  src="http://www.jbmeyer.org/wp-content/uploads/2018/07/dsc_3269.jpg" />
+      </div>
     </div>
   </div>
 );
